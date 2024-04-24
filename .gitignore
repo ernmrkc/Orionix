@@ -1,0 +1,88 @@
+# Unreal Engine 5 genel dosyaları
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Backup/
+Thumbnails/
+.vscode/
+*.autosave
+
+# Mac ve iOS spesifik dosyalar
+.DS_Store
+*.app
+*.xcworkspace/
+Build/Mac/
+Build/IOS/
+
+# Windows spesifik dosyalar
+Binaries/Win*/
+
+# Visual Studio
+*.sln
+*.suo
+*.user
+.vs/
+Build/Windows/
+
+# Derlenmiş dosyalar
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ipa
+*.apk
+*.log
+
+# Diğer gereksiz dosyalar
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+ehthumbs_vista.db
+Icon?
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Executables
+*.out
+
+# Engine-generated project files
+*.xcodeproj
+*.xcworkspace
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# Built data for maps
+*_BuiltData.uasset
+
+# Configuration files
+.vsconfig
