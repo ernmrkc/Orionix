@@ -22,10 +22,10 @@ void ATunnelManager::BeginPlay()
 {
 	Super::BeginPlay();
 	FRotator initialRotation = FRotator(0.f, 90.f, 0.f);
-	tunnelArrow->SetWorldRotation(initialRotation);								// Set arrow component rotation
+	tunnelArrow->SetWorldRotation(initialRotation);						// Set arrow component rotation
 	blockPool->initializePool(GetWorld(), ABlock::StaticClass());				// Pool created and filled
-	subscribeToBlockEvents();													// Subscribed to trigger events of block
-	initializeTunnel();															// Tunnel initialized
+	subscribeToBlockEvents();								// Subscribed to trigger events of block
+	initializeTunnel();									// Tunnel initialized
 	
 	//triggerRandomTurn();
 }
